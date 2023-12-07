@@ -55,10 +55,15 @@ monogatari.script ({
                 }}
         ],
         'Spread': [
-            'Vous avez décidé de révéler la vérité au grand jour. Votre courage risque cependant de vous coûter cher...'
+            'Vous avez décidé de révéler la vérité au grand jour. Votre courage risque cependant de vous coûter cher...',
+            'jump Scene2'
         ],
         'Coward': [
-            'Vous préférez rester chez vous et regarder Netflix. La planète a brûlé. Vous avez perdu.'
+            'Vous préférez rester chez vous et regarder Netflix. La planète a brûlé. Vous avez perdu.',
+            'end'
+        ],
+        'Scene2':[
+            'end'
         ],
         'other': [
             'Whouuuuhouu',
