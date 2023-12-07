@@ -62,52 +62,52 @@
   },
   "Texts": {
     "Title": [
-      "The Wizard\nand The Squirrel",
-      "El Mago\ny La Ardilla"
+      "Climate's Assassins 2023",
+      "Climate's Assassins 2023"
     ],
     "NewGame": [
       "New game",
-      "Juego nuevo"
+      "Nouvelle partie"
     ],
     "Continue": [
       "Continue",
-      "Continuar"
+      "Continuer"
     ],
     "Language": [
       "Language",
-      "Idioma"
+      "Langues"
     ],
     "Help": [
       "Help",
-      "Ayuda"
+      "Aide"
     ],
     "Credits": [
       "Credits",
-      "Créditos"
+      "Crédits"
     ],
     "Back": [
       "Back",
-      "Volver"
+      "Retour"
     ],
     "Warning": [
       "Warning!\nYou'll lose your progress.",
-      "¡Aviso!\nPerderás tus avances."
+      "Attention !\n Vous allez perdre votre progression."
     ],
     "Yes": [
       "Yes",
-      "Sí"
+      "Oui"
     ],
     "No": [
       "No",
-      "No"
+      "Non"
     ],
     "NotUsable": [
       "It doesn't work",
-      "No funciona"
+      "Cela ne marche pas"
     ],
     "NoDescription": [
       "I don't know what is it",
-      "No sé qué es"
+      "Je ne sais pas ce que c'est"
     ]
   },
   "Player": {
@@ -2395,18 +2395,14 @@
   ],
   "Help": [
     [
-      "Look: Touch or click on a object or a character",
-      "Take: Drag the object onto the inventory icon",
-      "Combine: Drag one object onto another one",
-      "Use: Right mouse click or long press",
-      "Talk: Right mouse click or long press over a character"
+      "Left clic to continue the story",
+      "Hint : there is an hidden page on the website",
+      "Pssss there is also a Charly hidden ! "
     ],
     [
-      "Look: Touch or click on a object or a character",
-      "Take: Drag the object onto the inventory icon",
-      "Combine: Drag one object onto another one",
-      "Use: Right mouse click or long press",
-      "Talk: Right mouse click or long press over a character"
+      "Clic gauche pour avancer dans l'histoire",
+      "Indice : il y a une page cachée sur le site",
+      "Pssss il y a aussi un Charlie caché, saurez-vous le trouver ! "
     ]
   ]
 }
