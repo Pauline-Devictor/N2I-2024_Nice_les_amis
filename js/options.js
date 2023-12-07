@@ -17,7 +17,7 @@ monogatari.settings({
 	// The name of your game, this will be used to store all the data so once
 	// you've released a game using one name, it shouldn't change. Please use the
 	// Version Setting to indicate a new release of your game!
-	'Name': 'My Visual Novel',
+	'Name': 'Climate\'s Assassins 2023',
 
 	// The version of your game in semantic versioning (https://semver.org/).
 	'Version': '0.1.0',
@@ -29,7 +29,7 @@ monogatari.settings({
 	'Slots': 10,
 
 	// Change to true for a MultiLanguage GameScreen.
-	'MultiLanguage': false,
+	'MultiLanguage': true,
 
 	// If the 'Multilanguage' setting is set to `true`. This will enable a
 	// language selection screen that will be shown before the asset loading
