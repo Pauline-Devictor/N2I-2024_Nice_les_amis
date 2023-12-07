@@ -19,9 +19,7 @@
 
 /* General Style */
 body {
-	background-image: url("../assets/scenes/main_screen.jpg");
-	background-repeat: no-repeat;
-	background-size: contain;
+
 }
 
 /* Simple Button styles*/
@@ -47,7 +45,9 @@ button:hover {
 
 /* Main Menu Styling */
 [data-screen="main"] {
-
+	background-image: url("../assets/scenes/main_screen.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
 }
 
 /* Main Menu Buttons Styling */
