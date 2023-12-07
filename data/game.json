@@ -2343,8 +2343,18 @@
         {
           "Image": "intro0.png",
           "Text": [
-            "The magician had a long journey home, so he decided to rest in a cave.",
-            "El mago tenía un largo viaje hacia su casa, así que decidió descansar en una cueva."
+            "COP city, 2023. The planet is in chaos !",
+            "COP city, 2023. Le chaos règne sur la planète !"
+          ],
+          "Time": 5,
+          "Music": "Fantasy",
+          "Position": "Center"
+        },
+        {
+          "Image": "intro0.png",
+          "Text": [
+            "A long time ago, in a galaxy not so far away, an insidious shadow loomed over a once-thriving planet. Corrupt political leaders and unscrupulous industrialists, united by their insatiable thirst for power and profit, had cast their sinister grip on the destiny of this planet.",
+            "Il y a bien longtemps, dans une galaxie pas si lointaine, une ombre insidieuse s'étendait sur une planète autrefois prospère. Les dirigeants politiques corrompus et les industriels sans scrupules, unis par leur soif insatiable de pouvoir et de profit, avaient jeté leur sinistre emprise sur la destinée de cette planète."
           ],
           "Time": 5,
           "Music": "Fantasy",
@@ -2353,8 +2363,8 @@
         {
           "Image": "intro1.png",
           "Text": [
-            "When he was sleeping his 'Book of spells' disappeared...",
-            "Mientras dormía su \"Libro de hechizos\" desapareció"
+            "For decades, these evil industrialists had relentlessly exploited natural resources, emitting enormous amounts of carbon into the atmosphere, plunging the planet into ecological chaos. Political leaders, complicit in this devastating enterprise, turned a blind eye to the warnings of scientists and environmentalists, preferring to sacrifice the future in the name of present greed.",
+            "Pendant des décennies, ces méchants industriels avaient exploité les ressources naturelles sans relâche, émettant d'énormes quantités de carbone dans l'atmosphère, plongeant la planète dans un chaos écologique. Les dirigeants politiques, complices de cette entreprise dévastatrice, tournaient un regard aveugle sur les avertissements des scientifiques et des défenseurs de l'environnement, préférant sacrifier l'avenir au nom de la cupidité présente."
           ],
           "Time": 5,
           "Position": "Center"
@@ -2362,8 +2372,26 @@
         {
           "Image": "intro2.png",
           "Text": [
-            "When he woke up his adventure to find his book started...",
-            "Cuando se despertó su aventura para encontrar el libro comenzó..."
+            "The skies were darkened by toxic fumes from factories, and the earth was gripped by a vice of pollution. The inhabitants of this once-lush planet struggled for survival, while the powerful basked in their ivory towers, ignoring the desperate cries of nature.",
+            "Les cieux se trouvaient obscurcis par les fumées toxiques des usines, et la terre était étreinte par un étau de pollution. Les habitants de cette planète jadis luxuriante luttaient pour leur survie, tandis que les puissants se prélassaient dans leurs tours d'ivoire, ignorant les cris désespérés de la nature."
+          ],
+          "Time": 5,
+          "Position": "Center"
+        },
+        {
+          "Image": "intro2.png",
+          "Text": [
+            "But amidst this darkness, a glimmer of hope began to emerge. Environmental rebels were rising, determined to overthrow the destructive reign of these evil industrialists and political leaders. The battle to restore ecological balance and save the planet was about to begin, and the force of nature itself was rallying behind those who resisted the growing shadow.",
+            "Mais au milieu de cette obscurité, une lueur d'espoir commençait à émerger. Des rebelles de l'environnement se levaient, déterminés à renverser le règne destructeur de ces méchants industriels et dirigeants politiques. La bataille pour restaurer l'équilibre écologique et sauver la planète était sur le point de commencer, et la force de la nature elle-même se ralliait à ceux qui résistaient à l'ombre grandissante."
+          ],
+          "Time": 5,
+          "Position": "Center"
+        },
+        {
+          "Image": "intro2.png",
+          "Text": [
+            "The future of this planet hung in the balance, and the fate of millions rested on the heroes' ability to defeat the forces of the dark side of industrialization and politics. The galaxy watched with growing concern, wondering if the light of reason and ecological responsibility could triumph over the greedy darkness that threatened to engulf this once-bright planet.",
+            "L'avenir de cette planète était en suspens, et le destin de millions reposait sur la capacité des héros à vaincre les forces du côté obscur de l'industrialisation et de la politique. La galaxie observait avec une inquiétude croissante, se demandant si la lumière de la raison et de la responsabilité écologique pouvait triompher de l'obscurité cupide qui menaçait d'engloutir cette planète autrefois éclatante."
           ],
           "Time": 5,
           "Position": "Center"
