@@ -69,7 +69,7 @@ monogatari.assets ('images', {
 
 // Define the backgrounds for each scene.
 monogatari.assets ('scenes', {
-
+	'xi_coal': 'xi_coal.png',
 });
 
 
@@ -85,10 +85,11 @@ monogatari.script ({
 	// The game starts here.
 	'Start': [
 		'show scene #f7f6f6 with fadeIn',
+		'show background xi_coal',
 		'show notification Welcome',
 		{
 			'Input': {
-				'Text': 'What is your name?',
+				'Text': 'Bonjour jeune héros, quel est ton nom ?',
 				'Validation': function (input) {
 					return input.trim ().length > 0;
 				},
@@ -107,40 +108,10 @@ monogatari.script ({
 						}
 					});
 				},
-				'Warning': 'You must enter a name!'
+				'Attention': 'Veuillez entrer un nom !'
 			}
 		},
-		'y Hi {{player.name}} Welcome to Monogatari!',
-		{
-			'Choice': {
-				'Dialog': 'y Have you already read some documentation?',
-				'Yes': {
-					'Text': 'Yes',
-					'Do': 'jump Yes'
-				},
-				'No': {
-					'Text': 'No',
-					'Do': 'jump No'
-				}
-			}
-		}
-	],
-
-	'Yes': [
-		'y Thats awesome!',
-		'y Then you are ready to go ahead and create an amazing Game!',
-		'y I can’t wait to see what story you’ll tell!',
+		'y Salut {{player.name}}, bienvenue dans Climate Assassins!',
 		'end'
-	],
-
-	'No': [
-
-		'y You can do it now.',
-
-		'show message Help',
-
-		'y Go ahead and create an amazing Game!',
-		'y I can’t wait to see what story you’ll tell!',
-		'end'
-	]
+		]
 });
