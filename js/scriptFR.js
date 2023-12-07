@@ -42,27 +42,25 @@ monogatari.script ({
             'show background climate_activists',
             'Mais au milieu de cette obscurité, une lueur d\'espoir commençait à émerger. Des rebelles de l\'environnement se levaient, déterminés à renverser le règne destructeur de ces méchants industriels et dirigeants politiques. La bataille pour restaurer l\'équilibre écologique et sauver la planète était sur le point de commencer, et la force de la nature elle-même se ralliait à ceux qui résistaient à l\'ombre grandissante.',
             'L\'avenir de cette planète était en suspens, et le destin de millions reposait sur la capacité des héros à vaincre les forces du côté obscur de l\'industrialisation et de la politique. La galaxie observait avec une inquiétude croissante, se demandant si la lumière de la raison et de la responsabilité écologique pouvait triompher de l\'obscurité cupide qui menaçait d\'engloutir cette planète autrefois éclatante.',
-            'jump Scene1'
-        ],
-        'Scene1': [
-            "Vous êtes un des descendants de Arno, bien que cela n'ait pas vraiment d'importance étant donné que la société des assassins a été dissoute il y a un siècle déjà.",
-            "Un beau jeudi soir, tandis que vous réalisiez vos tâches quotidiennes à Industria Corp., vous tombez sur des documents très particuliers dans le bureau de votre patron.",
             '{{player.name}}, vous découvrez des preuves de la pollution massive causée par Industria Corp. Vous devez maintenant prendre une décision cruciale : rester silencieux ou dévoiler la vérité au grand jour.',
-            'jump Scene2'
+            {'Choice': {
+                    'Dévoiler la vérité': {
+                        'Text': 'Dévoiler la vérité',
+                        'Do': 'jump Spread'
+                    },
+                    'Rester silencieux': {
+                        'Text': 'Rester silencieux',
+                        'Do': 'jump Coward'
+                    }
+                }}
         ],
-        'Scene2': [
-            'Whouuuuhouu',
-            'jump Scene3'
+        'Spread': [
+            'Vous avez décidé de révéler la vérité au grand jour. Votre courage risque cependant de vous coûter cher...'
         ],
-        'Scene3': [
-            'Whouuuuhouu',
-            'jump Scene4'
+        'Coward': [
+            'Vous préférez rester chez vous et regarder Netflix. La planète a brûlé. Vous avez perdu.'
         ],
-        'Scene4': [
-            'Whouuuuhouu',
-            'jump Scene5'
-        ],
-        'Scene5': [
+        'other': [
             'Whouuuuhouu',
             'end'
         ]
