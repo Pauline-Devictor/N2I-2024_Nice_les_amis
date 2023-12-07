@@ -69,7 +69,23 @@ monogatari.script ({
             'Poursuivi en justice, votre procès ne va pas se produire avant quelques mois, heureusement que la justice du pays est parfois longue à ' + "s'appliquer ! Votre mentor vous recommande de profiter de ce temps pour organiser des manifestations et sensibiliser les habitants de la ville aux gestes qu'ils peuvent faire pour protéger l'environnement.",
             'show background xi_coal',
             "Avant d'avoir pu accepter ou non de suivre le conseil de votre mentor, vous êtes appelé par votre ancien patron, il vous propose d'annuler la poursuite et de vous promouvoir si vous acceptez d'avouer en public que les documents étaient faux. En revanche, si jamais vous refusiez, il serait prêt à tout pour annihiler toute menace visant son entreprise",
-            'end'
+            '{{player.name}}, vous faites face à des choix difficiles : organiser des manifestations pacifiques, sensibiliser davantage l\'opinion publique ou accepter de rejoindre votre ancien patron et mentir à la société en déclarant que les documents étaient faux.',
+            {'Choice': {
+                    "Sensibiliser l'opinion publique": {
+                        'Text': "Sensibiliser l'opinion publique",
+                        'Do': 'jump Scene3GoodSide'
+                    },
+                    'Rejoindre le côté de votre ancien patron': {
+                        'Text': 'Rejoindre le côté de votre ancien patron',
+                        'Do': 'jump Scene3BadSide'
+                    }
+                }}
+        ],
+        'Scene3GoodSide':[
+
+        ],
+        'Scene3BadSide':[
+
         ],
         'other': [
             'Whouuuuhouu',
