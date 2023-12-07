@@ -2308,21 +2308,30 @@
       {
         "Title": [
           "Story",
-          "Historia"
+          "Histoire"
         ],
         "Text": [
-          "R.Vañes"
+          "Pauline DEVICTOR",
+          "Thomas PREVOST"
         ]
       },
       {
         "Title": [
           "Graphics",
-          "Gráficos"
+          "Graphismes"
         ],
         "Text": [
-          "Freepik",
-          "Opengameart",
-          "R.Vañes"
+          "Pauline DEVICTOR",
+          "Thomas PREVOST"
+        ]
+      },
+      {
+        "Title": [
+          "A lot of code reused from",
+          "Une grande partie du code a été repris de"
+        ],
+        "Text": [
+          "kreezii"
         ]
       }
     ]
