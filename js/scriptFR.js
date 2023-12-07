@@ -64,8 +64,11 @@ monogatari.script ({
         ],
         'Scene2':[
             'La révélation des preuves crée une opposition croissante entre les écologistes, et Industria Corp, qui lutte pour maintenir son projet en dépit de la mauvaise publicité.',
-            'De son côté Alex a été invité par de nombreuses chaines télévisées pour parler de ses découvertes et a eu la chance de rencontrer un "mentor"' +  "de l'écologie pour l'accompagner en public.",
+            'De son côté {{player.name}} a été invité par de nombreuses chaines télévisées pour parler de ses découvertes et a eu la chance de rencontrer un "mentor"' +  "de l'écologie pour l'accompagner en public.",
             'Ce mentor,' + "c'est _nom_mentor_, un personnage bien connu de la région PACA dans laquelle se situe la ville de COPcity. Néanmoins, la révélation de ces documents confidentiels comprométants n'a pas été sans conséquences, Alex a aussi été trainé en justice par Industria Corp",
+            'Poursuivi en justice, votre procès ne va pas se produire avant quelques mois, heureusement que la justice du pays est parfois longue à ' + "s'appliquer ! Votre mentor vous recommande de profiter de ce temps pour organiser des manifestations et sensibiliser les habitants de la ville aux gestes qu'ils peuvent faire pour protéger l'environnement.",
+            'show background xi_coal',
+            "Avant d'avoir pu accepter ou non de suivre le conseil de votre mentor, vous êtes appelé par votre ancien patron, il vous propose d'annuler la poursuite et de vous promouvoir si vous acceptez d'avouer en public que les documents étaient faux. En revanche, si jamais vous refusiez, il serait prêt à tout pour annihiler toute menace visant son entreprise",
             'end'
         ],
         'other': [
