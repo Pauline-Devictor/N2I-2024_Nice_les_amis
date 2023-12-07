@@ -46,16 +46,23 @@ monogatari.script ({
             {'Choice': {
                     'Dévoiler la vérité': {
                         'Text': 'Dévoiler la vérité',
-                        'Do': 'jump Spread'
+                        'Do': 'jump Spread',
+                        'Save': function () {
+                            monogatari.storage().player.goodChoice += 1;
+                        },
                     },
                     'Rester silencieux': {
                         'Text': 'Rester silencieux',
-                        'Do': 'jump Coward'
+                        'Do': 'jump Coward',
+                        'Save': function () {
+                            monogatari.storage().player.badChoice += 1;
+                        },
                     }
                 }}
         ],
         'Spread': [
             'Vous avez décidé de révéler la vérité au grand jour. Votre courage risque cependant de vous coûter cher...',
+
             'jump Scene2'
         ],
         'Coward': [
@@ -73,11 +80,18 @@ monogatari.script ({
             {'Choice': {
                     "Sensibiliser l'opinion publique": {
                         'Text': "Sensibiliser l'opinion publique",
-                        'Do': 'jump Scene3GoodSide'
+                        'Do': 'jump Scene3GoodSide',
+
+                        'Save': function () {
+                            monogatari.storage().player.goodChoice += 1;
+                        },
                     },
                     'Rejoindre le côté de votre ancien patron': {
                         'Text': 'Rejoindre le côté de votre ancien patron',
-                        'Do': 'jump Scene3BadSide'
+                        'Do': 'jump Scene3BadSide',
+                        'Save': function () {
+                            monogatari.storage().player.badChoice += 1;
+                        },
                     }
                 }}
         ],

@@ -3,6 +3,8 @@
 // Persistent Storage Variable
 monogatari.storage ({
 	player: {
-		name: ''
+		name: '',
+		goodChoice: 0,
+		badChoice: 0,
 	}
 });
