@@ -96,9 +96,43 @@ monogatari.script ({
                 }}
         ],
         'Scene3GoodSide':[
+            'show background climate_activists',
+            'Regardez toutes ces pubs ! Toutes veulent nous inciter à toujours consommer plus ! A manger plus de viandes ! A exploiter plus de populations vulnérables et sous payées ! Tout cela pour quoi ? Pour gagner de' + " l'argent sur notre dos tout en polluant notre pauvre planète ! Quel est le sens d'avoir accès à tous ces objets si nous fonçons vers notre autodestruction ?",
+            "Ainsi vous exprimez-vous devant les caméras qui passent devant une de vos manifestations.",
+            "2 mois se sont écoulés depuis le début de vos manifestations avec _nom_du_mentor. Et bien que vous ayez refusé l'offre de votre ancien patron, vous n'avez pas eu de nouvelles depuis, qui sait ce qu'il peut être en train de préparer ?",
+            "Un matin, en vous préparant comme à votre habitude à aller militer pour le climat et pour votre cause, vous découvrez avec horreur de nombreuses notifications sur votre téléphone.",
+            "Vous ne comprenez pas ce qu'il se passe et vous voyez un nombre incalculable d'appels manqués sur votre téléphone. Tandis que vous essayez de comprendre ce qu'il se passe, vous entendez quelqu'un qui sonne à votre porte, c'est votre mentor.",
+            "Enfin ! Vous ne vous rendez pas compte de ce qu'il se passe dehors, tout l'internet s'embrase ! ",
+            "Mais que se passe-t-il ?",
+            "Industria Corp contre attaque. Ils ont fait de nombreux posts sur les réseaux sociaux pour te diffamer, ils ont réussi à réunir de nombreuses fausses preuves sur des crimes que tu aurais soit-disant commis. Tu es accusé tout d'abord de harcèlement, de racisme, de vol à multiple reprise, le tout au sein de l'entreprise. Tout se répandant à une vitesse folle car personne ne pense à vérifier les informations ! ",
+            "Bien évidement de nombreuses personnes continuent de te soutenir mais toutes celles qui n'étaient pas au courant de la première affaire se tourne contre toi ! Il faut réagir !",
+            "Tu pourras faire une conférence de presse en démontrant les impacts de notre mode de vie, ce qui serait une solution pacifique ou au contraire opter pour une solution offensive et contre attaquer sur les réseaux .",
+            {'Choice': {
+                    "Faire une conférence de presse": {
+                        'Text': "Faire une conférence de presse",
+                        'Do': 'jump Scene4GoodSideTelevision',
 
+                        'Save': function () {
+                            monogatari.storage().player.goodChoice += 1;
+                        },
+                    },
+                    'Contre attaquer Industria Corp. sur les réseaux sociaux': {
+                        'Text': 'Contre attaquer Industria Corp. sur les réseaux sociaux',
+                        'Do': 'jump Scene4BadSideSocialMedias',
+                        'Save': function () {
+                            monogatari.storage().player.badChoice += 1;
+                        },
+                    }
+                }}
         ],
         'Scene3BadSide':[
+            'show background xi_coal',
+
+        ],
+        'Scene4GoodSideTelevision':[
+
+        ],
+        'Scene4BadSideSocialMedias':[
 
         ],
         'other': [
