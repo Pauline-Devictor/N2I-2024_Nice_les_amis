@@ -1,3 +1,7 @@
+monogatari.assets ('scenes', {
+	'xi_coal': 'xi_coal.png',
+});
+
 monogatari.script ({
 	'English':{
 		'Start': [
