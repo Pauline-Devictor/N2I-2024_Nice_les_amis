@@ -17,7 +17,7 @@ var config={
     'data/fonts/courgette.fnt',
     'data/fonts/courgette-regular-blue.fnt',
     'data/fonts/courgette-regular-green.fnt',
-    'data/game.min.json'
+    'data/game.json'
   ]
 };
 
