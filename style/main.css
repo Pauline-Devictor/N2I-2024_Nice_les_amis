@@ -19,7 +19,9 @@
 
 /* General Style */
 body {
-
+	background-image: url("../assets/scenes/main_screen.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
 }
 
 /* Simple Button styles*/
