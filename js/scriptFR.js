@@ -66,6 +66,7 @@ monogatari.script ({
             'La révélation des preuves crée une opposition croissante entre les écologistes, et Industria Corp, qui lutte pour maintenir son projet en dépit de la mauvaise publicité.',
             'De son côté Alex a été invité par de nombreuses chaines télévisées pour parler de ses découvertes et a eu la chance de rencontrer un "mentor"' +  "de l'écologie pour l'accompagner en public.",
             'Ce mentor,' + "c'est _nom_mentor_, un personnage bien connu de la région PACA dans laquelle se situe la ville de COPcity. Néanmoins, la révélation de ces documents confidentiels comprométants n'a pas été sans conséquences, Alex a aussi été trainé en justice par Industria Corp",
+            '{{player.name}}, vous faites face à des choix difficiles : organiser des manifestations pacifiques, sensibiliser davantage l\'opinion publique ou enquêter plus profondément pour exposer les liens entre Industria Corp et des politiciens corrompus.',
             'end'
         ],
         'other': [
