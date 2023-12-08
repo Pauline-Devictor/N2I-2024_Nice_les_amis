@@ -160,7 +160,7 @@ monogatari.script ({
 			'stop music',
 			'show background hatred',
 			'play music defeat with loop ',
-			
+
 			"Hello everyone, I'm {{player.name}}. I wanted to talk to you about something serious. Industria Corp., this malicious company, continues to destroy our planet through massive pollution. They hide behind lies and manipulations, and it's time to expose them for what they truly are.",
 			"Here is shocking evidence of their negligence. They have destroyed ecosystems, endangered endangered species, all in the name of profit. Share this information as much as possible. Together, we can make our voices heard and hold Industria Corp. accountable.",
 			"However, you wonder if all these lies were necessary. After all, in your numerous speeches, you denounced the lies that could circulate regarding the environment in the media, so what sense does it make if you contribute to them as well?",			'end'
