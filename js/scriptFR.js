@@ -74,7 +74,7 @@ monogatari.script ({
         'Scene2':[
             'La révélation des preuves crée une opposition croissante entre les écologistes, et Industria Corp, qui lutte pour maintenir son projet en dépit de la mauvaise publicité.',
             'De son côté {{player.name}} a été invité par de nombreuses chaines télévisées pour parler de ses découvertes et a eu la chance de rencontrer un "mentor"' +  "de l'écologie pour l'accompagner en public.",
-            'Ce mentor,' + "c'est _nom_mentor_, un personnage bien connu de la région PACA dans laquelle se situe la ville de COPcity. Néanmoins, la révélation de ces documents confidentiels comprométants n'a pas été sans conséquences, Alex a aussi été trainé en justice par Industria Corp",
+            'Ce mentor,' + "c'est Jean-Marc JanKenobi, un personnage bien connu de la région PACA dans laquelle se situe la ville de COPcity. Néanmoins, la révélation de ces documents confidentiels comprométants n'a pas été sans conséquences, Alex a aussi été trainé en justice par Industria Corp",
             'Poursuivi en justice, votre procès ne va pas se produire avant quelques mois, heureusement que la justice du pays est parfois longue à ' + "s'appliquer ! Votre mentor vous recommande de profiter de ce temps pour organiser des manifestations et sensibiliser les habitants de la ville aux gestes qu'ils peuvent faire pour protéger l'environnement.",
             'show background xi_coal',
             "Avant d'avoir pu accepter ou non de suivre le conseil de votre mentor, vous êtes appelé par votre ancien patron, il vous propose d'annuler la poursuite et de vous promouvoir si vous acceptez d'avouer en public que les documents étaient faux. En revanche, si jamais vous refusiez, il serait prêt à tout pour annihiler toute menace visant son entreprise",
@@ -101,7 +101,7 @@ monogatari.script ({
             'show background climate_activists',
             'Regardez toutes ces pubs ! Toutes veulent nous inciter à toujours consommer plus ! A manger plus de viandes ! A exploiter plus de populations vulnérables et sous payées ! Tout cela pour quoi ? Pour gagner de' + " l'argent sur notre dos tout en polluant notre pauvre planète ! Quel est le sens d'avoir accès à tous ces objets si nous fonçons vers notre autodestruction ?",
             "Ainsi vous exprimez-vous devant les caméras qui passent devant une de vos manifestations.",
-            "2 mois se sont écoulés depuis le début de vos manifestations avec _nom_du_mentor. Et bien que vous ayez refusé l'offre de votre ancien patron, vous n'avez pas eu de nouvelles depuis, qui sait ce qu'il peut être en train de préparer ?",
+            "2 mois se sont écoulés depuis le début de vos manifestations avec Jean-Marc JanKenobi. Et bien que vous ayez refusé l'offre de votre ancien patron, vous n'avez pas eu de nouvelles depuis, qui sait ce qu'il peut être en train de préparer ?",
             "Un matin, en vous préparant comme à votre habitude à aller militer pour le climat et pour votre cause, vous découvrez avec horreur de nombreuses notifications sur votre téléphone.",
             "Vous ne comprenez pas ce qu'il se passe et vous voyez un nombre incalculable d'appels manqués sur votre téléphone. Tandis que vous essayez de comprendre ce qu'il se passe, vous entendez quelqu'un qui sonne à votre porte, c'est votre mentor.",
             "Enfin ! Vous ne vous rendez pas compte de ce qu'il se passe dehors, tout l'internet s'embrase ! ",
@@ -137,7 +137,7 @@ monogatari.script ({
         'Scene4BadSideSocialMedias':[
             "Salut tout le monde, je suis {{player.name}}. Je tenais à vous parler de quelque chose de grave. Industria Corp., cette entreprise malveillante, continue de détruire notre planète en polluant massivement. Ils se cachent derrière des mensonges et des manipulations, et il est temps de les exposer pour ce qu'ils sont réellement.",
             "Voici des preuves choquantes de leur négligence. Ils ont détruit des écosystèmes, mis en danger des espèces en voie de disparition, tout au nom du profit. Partagez ces informations autant que possible. Ensemble, nous pouvons faire entendre notre voix et forcer Industria Corp. à rendre des comptes.",
-            "Mais vous vous demandez si tous ces mensonges étaient nécessaires ? Après tout vous avez dénoncé dans vos nombreux discours les mensonges qui pouvaient circuler vis à vis de l'environnement sur les médias, donc quel sens cela peut avoir si vous y contribuez aussi ?"
+            "Mais vous vous demandez si tous ces mensonges étaient nécessaires ? Après tout vous avez dénoncé dans vos nombreux discours les mensonges qui pouvaient circuler vis à vis de l'environnement sur les médias, donc quel sens cela peut avoir si vous y contribuez aussi ?",
             'end'
         ],
     }
