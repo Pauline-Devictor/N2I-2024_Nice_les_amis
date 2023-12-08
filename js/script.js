@@ -10,6 +10,10 @@ monogatari.assets ('scenes', {
 	'happy': 'PlanetIsSafe.png',
 	'hatred': 'Hatred_charlie.png',
 });
+monogatari.assets ('music', {
+	'intro': 'Introduction.mp3',
+
+});
 
 monogatari.script ({
 	'English':{
@@ -39,6 +43,7 @@ monogatari.script ({
 				}
 			},
 			'show background steampunk_polluted',
+			'play music intro with loop ',
 			'COP city, 2023...',
 			'show background xi_coal',
 			'Long ago, in a not-so-distant galaxy, a insidious shadow was spreading over a once prosperous planet. Corrupt political leaders and unscrupulous industrialists, united by their insatiable thirst for power and profit, had cast their sinister grip over the fate of this planet.',

@@ -11,6 +11,13 @@ monogatari.assets ('scenes', {
     'happy': 'PlanetIsSafe.png',
     'hatred': 'Hatred_charlie.png',
 });
+monogatari.assets ('music', {
+    'intro': 'Introduction.mp3',
+    'manifs': 'Manifs.mp3',
+    'defeat': 'Defaite.mp3',
+    "end": "fin.mp3",
+    "Television": "Television.mp3",
+});
 
 monogatari.script ({
     'Français':{
@@ -40,6 +47,8 @@ monogatari.script ({
                 }
             },
             'show background steampunk_polluted',
+            'play music intro with loop ',
+
             'COP city, 2023...',
             'show background xi_coal',
             'Il y a bien longtemps, dans une galaxie pas si lointaine, une ombre insidieuse s\'étendait sur une planète autrefois prospère. Les dirigeants politiques corrompus et les industriels sans scrupules, unis par leur soif insatiable de pouvoir et de profit, avaient jeté leur sinistre emprise sur la destinée de cette planète.',
@@ -67,12 +76,18 @@ monogatari.script ({
             'jump Scene2'
         ],
         'Coward': [
+            'stop music',
             'show background burning_earth',
+            'play music defeat with loop ',
+
             'Vous préférez rester chez vous et regarder Netflix. La planète a brûlé. Vous avez perdu.',
             'end'
         ],
         'Scene2':[
+            'stop music',
             'show background whistleblower',
+            'play music manifs with loop ',
+
             'La révélation des preuves crée une opposition croissante entre les écologistes, et Industria Corp, qui lutte pour maintenir son projet en dépit de la mauvaise publicité.',
             'De son côté {{player.name}} a été invité par de nombreuses chaines télévisées pour parler de ses découvertes et a eu la chance de rencontrer un "mentor"' +  "de l'écologie pour l'accompagner en public.",
             'Ce mentor,' + "c'est Jean-Marc JanKenobi, un personnage bien connu de la région PACA dans laquelle se situe la ville de COPcity. Néanmoins, la révélation de ces documents confidentiels comprométants n'a pas été sans conséquences, Alex a aussi été trainé en justice par Industria Corp",
@@ -92,7 +107,10 @@ monogatari.script ({
                 }}
         ],
         'Scene3GoodSide':[
+            'stop music',
             'show background climate_activists',
+            'play music Television with loop ',
+
             'Regardez toutes ces pubs ! Toutes veulent nous inciter à toujours consommer plus ! A manger plus de viandes ! A exploiter plus de populations vulnérables et sous payées ! Tout cela pour quoi ? Pour gagner de' + " l'argent sur notre dos tout en polluant notre pauvre planète ! Quel est le sens d'avoir accès à tous ces objets si nous fonçons vers notre autodestruction ?",
             "Ainsi vous exprimez-vous devant les caméras qui passent devant une de vos manifestations.",
             'show background riot',
@@ -117,13 +135,19 @@ monogatari.script ({
                 }}
         ],
         'Scene3BadSide':[
+            'stop music',
             'show background xi_coal',
+            'play music defeat with loop ',
+
             "Vous dénoncez une entreprise tout ça pour juste céder à la première menace ? A quoi bon ? Vous avez des personnes pour vous soutenir vous et l'environnement ! N'abandonnez pas pour si peu il y a encore tant de choses que vous pouvez accomplir !",
             "end"
 
         ],
         'Scene4GoodSideTelevision':[
+            'stop music',
             'show background happy',
+            'play music end with loop ',
+
             "Je sais que de nombreuses personnes sont hostiles vis à vis de ma personne à cause des récents messages sur les réseaux de mon ex-employeur. Tous ces posts sont frauduleux ! Les preuves ont été crées et les images sont générées par des IA ! N'avez-vous pas remarqué que mes mains sont mals dessinées ? Que certaines formes ne sont pas cohérentes ? En regardant les détails de la plupart de ces documents il est possible de vérifier qu'ils sont faux !",
             "Concernant toutes ces fake-news sur l'environnement, en cherchant parmis les revues scientifiques et les médias officiels, il est aussi assez aisé de démontrer que tous les propos de Industria Corp. sont mensongers !",
             "Laissez moi maintenant vous décrire de réelles façon que vous pouvez chacun indivuellement effectuer pour réduire votre impact environnemental !",
@@ -136,7 +160,10 @@ monogatari.script ({
             "end"
         ],
         'Scene4BadSideSocialMedias':[
+            'stop music',
             'show background hatred',
+            'play music defeat with loop ',
+
             "Salut tout le monde, je suis {{player.name}}. Je tenais à vous parler de quelque chose de grave. Industria Corp., cette entreprise malveillante, continue de détruire notre planète en polluant massivement. Ils se cachent derrière des mensonges et des manipulations, et il est temps de les exposer pour ce qu'ils sont réellement.",
             'show background disaster',
             "Voici des preuves choquantes de leur négligence. Ils ont détruit des écosystèmes, mis en danger des espèces en voie de disparition, tout au nom du profit. Partagez ces informations autant que possible. Ensemble, nous pouvons faire entendre notre voix et forcer Industria Corp. à rendre des comptes.",
