@@ -7,6 +7,7 @@ monogatari.assets ('scenes', {
     'whistleblower': 'whistleblower.png',
     'riot': 'riot.png',
     'trial': 'trial.png',
+    'disaster': 'disaster.png',
 });
 
 monogatari.script ({
@@ -128,11 +129,12 @@ monogatari.script ({
             "Une méthode moins connue de réduire son impact environnemental est de diminuer sa consommation de viande, en effet, nos chères amies les bêtes sont de grandes productrices de CO2 tout au long de leur vie, ainsi qu'au passage à l'abattoir et à la transformation de la viande !",
             "Si vous avez de l'argent à investir, vous pouvez en profiter pour investir dans des projets durables (et non pas chez des pétroliers)",
             "Un dernier geste, serait de partager tous ces conseils à vos amis, votre famille et vos collègues !",
-            "~~~Félicitations vous avez atteint la bonne fin du jeu ! ~~~"
+            "~~~Félicitations vous avez atteint la bonne fin du jeu ! ~~~",
             "end"
         ],
         'Scene4BadSideSocialMedias':[
             "Salut tout le monde, je suis {{player.name}}. Je tenais à vous parler de quelque chose de grave. Industria Corp., cette entreprise malveillante, continue de détruire notre planète en polluant massivement. Ils se cachent derrière des mensonges et des manipulations, et il est temps de les exposer pour ce qu'ils sont réellement.",
+            'show background disaster',
             "Voici des preuves choquantes de leur négligence. Ils ont détruit des écosystèmes, mis en danger des espèces en voie de disparition, tout au nom du profit. Partagez ces informations autant que possible. Ensemble, nous pouvons faire entendre notre voix et forcer Industria Corp. à rendre des comptes.",
             "Mais vous vous demandez si tous ces mensonges étaient nécessaires ? Après tout vous avez dénoncé dans vos nombreux discours les mensonges qui pouvaient circuler vis à vis de l'environnement sur les médias, donc quel sens cela peut avoir si vous y contribuez aussi ?",
             'end'
