@@ -8,6 +8,7 @@ monogatari.assets ('scenes', {
     'riot': 'riot.png',
     'trial': 'trial.png',
     'disaster': 'disaster.png',
+    'hatred': 'hatred.png',
 });
 
 monogatari.script ({
@@ -121,6 +122,7 @@ monogatari.script ({
 
         ],
         'Scene4GoodSideTelevision':[
+            'show background hatred',
             "Je sais que de nombreuses personnes sont hostiles vis à vis de ma personne à cause des récents messages sur les réseaux de mon ex-employeur. Tous ces posts sont frauduleux ! Les preuves ont été crées et les images sont générées par des IA ! N'avez-vous pas remarqué que mes mains sont mals dessinées ? Que certaines formes ne sont pas cohérentes ? En regardant les détails de la plupart de ces documents il est possible de vérifier qu'ils sont faux !",
             "Concernant toutes ces fake-news sur l'environnement, en cherchant parmis les revues scientifiques et les médias officiels, il est aussi assez aisé de démontrer que tous les propos de Industria Corp. sont mensongers !",
             "Laissez moi maintenant vous décrire de réelles façon que vous pouvez chacun indivuellement effectuer pour réduire votre impact environnemental !",
