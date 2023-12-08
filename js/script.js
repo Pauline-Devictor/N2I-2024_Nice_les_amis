@@ -60,10 +60,9 @@ monogatari.script ({
 					}
 				}}
 		],
-		'Spread': [{
-			'Text':'You have chosen to reveal the truth to the world. Your courage, however, may come at a cost...',
-			'Do' : 'jump Scene2'
-		}
+		'Spread': [
+			'You have chosen to reveal the truth to the world. Your courage, however, may come at a cost...',
+			'jump Scene2'
 		],
 		'Coward': [
 			'You prefer to stay at home and watch Netflix. The planet has burned. You have lost.',
