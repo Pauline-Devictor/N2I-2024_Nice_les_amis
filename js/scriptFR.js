@@ -3,6 +3,7 @@ monogatari.assets ('scenes', {
     'climate_activists': 'climate_activists.png',
     'emir_banknotes': 'emir_banknotes.png',
     'steampunk_polluted': 'steampunk_polluted.png',
+    'burning_earth': 'burning_earth.png',
 });
 
 monogatari.script ({
@@ -66,6 +67,7 @@ monogatari.script ({
             'jump Scene2'
         ],
         'Coward': [
+            'show background burning_earth',
             'Vous préférez rester chez vous et regarder Netflix. La planète a brûlé. Vous avez perdu.',
             'end'
         ],
