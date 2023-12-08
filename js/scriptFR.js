@@ -8,7 +8,8 @@ monogatari.assets ('scenes', {
     'riot': 'riot.png',
     'trial': 'trial.png',
     'disaster': 'disaster.png',
-    'hatred': 'hatred.png',
+    'happy': 'PlanetIsSafe.png',
+    'hatred': 'Hatred_charlie.png',
 });
 
 monogatari.script ({
@@ -122,7 +123,7 @@ monogatari.script ({
 
         ],
         'Scene4GoodSideTelevision':[
-            'show background hatred',
+            'show background happy',
             "Je sais que de nombreuses personnes sont hostiles vis à vis de ma personne à cause des récents messages sur les réseaux de mon ex-employeur. Tous ces posts sont frauduleux ! Les preuves ont été crées et les images sont générées par des IA ! N'avez-vous pas remarqué que mes mains sont mals dessinées ? Que certaines formes ne sont pas cohérentes ? En regardant les détails de la plupart de ces documents il est possible de vérifier qu'ils sont faux !",
             "Concernant toutes ces fake-news sur l'environnement, en cherchant parmis les revues scientifiques et les médias officiels, il est aussi assez aisé de démontrer que tous les propos de Industria Corp. sont mensongers !",
             "Laissez moi maintenant vous décrire de réelles façon que vous pouvez chacun indivuellement effectuer pour réduire votre impact environnemental !",
@@ -135,6 +136,7 @@ monogatari.script ({
             "end"
         ],
         'Scene4BadSideSocialMedias':[
+            'show background hatred',
             "Salut tout le monde, je suis {{player.name}}. Je tenais à vous parler de quelque chose de grave. Industria Corp., cette entreprise malveillante, continue de détruire notre planète en polluant massivement. Ils se cachent derrière des mensonges et des manipulations, et il est temps de les exposer pour ce qu'ils sont réellement.",
             'show background disaster',
             "Voici des preuves choquantes de leur négligence. Ils ont détruit des écosystèmes, mis en danger des espèces en voie de disparition, tout au nom du profit. Partagez ces informations autant que possible. Ensemble, nous pouvons faire entendre notre voix et forcer Industria Corp. à rendre des comptes.",
