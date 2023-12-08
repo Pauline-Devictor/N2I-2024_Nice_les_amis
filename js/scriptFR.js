@@ -119,7 +119,7 @@ monogatari.script ({
                         },
                     },
                     'Contre attaquer Industria Corp. sur les réseaux sociaux': {
-                        'Text': 'Contre attaquer Industria Corp. sur les réseaux sociaux',
+                        'Text': 'Contre attaquer Industria Corp. sur les réseaux sociaux avec de faux documents',
                         'Do': 'jump Scene4BadSideSocialMedias',
                         'Save': function () {
                             monogatari.storage().player.badChoice += 1;
@@ -135,11 +135,10 @@ monogatari.script ({
 
         ],
         'Scene4BadSideSocialMedias':[
-
-        ],
-        'other': [
-            'Whouuuuhouu',
+            "Salut tout le monde, je suis {{player.name}}. Je tenais à vous parler de quelque chose de grave. Industria Corp., cette entreprise malveillante, continue de détruire notre planète en polluant massivement. Ils se cachent derrière des mensonges et des manipulations, et il est temps de les exposer pour ce qu'ils sont réellement.",
+            "Voici des preuves choquantes de leur négligence. Ils ont détruit des écosystèmes, mis en danger des espèces en voie de disparition, tout au nom du profit. Partagez ces informations autant que possible. Ensemble, nous pouvons faire entendre notre voix et forcer Industria Corp. à rendre des comptes.",
+            "Mais vous vous demandez si tous ces mensonges étaient nécessaires ? Après tout vous avez dénoncé dans vos nombreux discours les mensonges qui pouvaient circuler vis à vis de l'environnement sur les médias, donc quel sens cela peut avoir si vous y contribuez aussi ?"
             'end'
-        ]
+        ],
     }
 });
